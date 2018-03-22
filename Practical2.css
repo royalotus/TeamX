@@ -1,0 +1,288 @@
+body{
+    background: url("ani.jpg") no-repeat;
+    width: 1920px;
+    height: 1080px;
+    position: fixed;
+
+
+}
+
+#wrapper
+{
+    width: 500px;
+
+    margin-top: -5px;
+    margin-left: 500px;
+
+    height: 900px;
+
+
+
+
+}
+
+
+
+
+
+.heading{
+    width: auto;
+    margin-top: -5px;
+    background: navajowhite;
+    height: 50px;
+    border-radius: 20px;
+    opacity: 0.7;
+
+
+
+
+
+}
+.heading p {
+    padding-left:180px;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    color:black;
+
+
+}
+
+
+.name{
+    height:190px;
+    width: 300px;
+    margin-top:5px;
+    margin-left: 60px;
+    background: black;
+    font-weight: bolder;
+    font-size: 17px;
+    color:white;
+    padding-left: 85px;
+    opacity: 0.7;
+    border-radius: 20px;
+
+
+
+
+}
+
+
+
+
+.name input[type=text]{
+
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-color: rgba(154, 131, 245, 0.49);
+
+}
+
+.name input[type=text]:hover{
+    cursor: pointer;
+    background: #a3ffec;
+    color: black;
+
+
+}
+
+/*----------------------------------------------------------------*/
+
+.address{
+    height:380px;
+    margin-top: 5px;
+    background: black;
+    opacity: 0.7;
+
+    font-size: 17px;
+    font-weight: bolder;
+    color:white;
+
+    border-radius: 20px;
+    width: 300px;
+    padding-left: 85px;
+    margin-left: 60px;
+    padding-top: 10px;
+
+
+}
+.address input[type=text]{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+}
+
+.address input[type=text]:hover {
+    cursor: pointer;
+    background: #a3ffec;
+    color: black;
+    border-color: rgba(154, 131, 245, 0.49);
+}
+
+.address input[type=number] {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+}
+
+.address input[type=number]:hover {
+    cursor: pointer;
+    background: #a3ffec;
+    color: black;
+    border-color: rgba(154, 131, 245, 0.49);
+}
+
+.address  input[type=email]{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-color: rgba(154, 131, 245, 0.49);
+
+}
+
+.address  input[type=tel]{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+
+}
+
+
+
+
+
+.address input[type=email]:hover{
+    cursor: pointer;
+    background: #a3ffec;
+    color: black;
+    border-color: rgba(154, 131, 245, 0.49);
+
+
+}
+.address  input[type=tel]:hover{
+    cursor: pointer;
+    background: #a3ffec;
+    color: black;
+}
+
+.address select{
+    border-color: rgba(154, 131, 245, 0.49);
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 190px;
+
+}
+
+.telephone select{
+    width:65px;
+}
+.telephone input[type=tel]
+{
+    width: 110px;
+    margin-left: 2px;
+}
+/*-------------------------------------------------------------------------*/
+
+
+.DOB{
+    height:60px;
+    margin-top: 5px;
+    background: black;
+
+    font-size: 17px;
+    font-weight: bolder;
+    color:white;
+    border-radius: 20px;
+
+    width: 300px;
+    padding-left: 85px;
+    margin-left: 60px;
+
+    opacity: 0.7;
+
+
+}
+
+.DOB input[type=date]
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+    border-color: rgba(154, 131, 245, 0.49);
+
+
+}
+
+.DOB input[type=date]:hover{
+    cursor: pointer;
+    background: #a3ffec;
+    color: black;
+
+
+}
+
+.submission{
+    width: auto;
+    margin-top: 5px;
+    background: navajowhite;
+    height: 40px;
+    border-radius: 20px;
+
+    opacity: 0.7;
+}
+
+
+
+
+.submission input[type=submit]
+{
+    margin-top: 5px;
+    margin-left: 200px;
+    outline: none;
+    border-color: red;
+    width: 100px;
+    height: 30px;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+
+
+
+}
+
+.submission input[type="submit"]:hover {
+    cursor: pointer;
+    background: red;
+    color: black;
+    -webkit-transition: width 4s;
+    transition: width 4s;
+}
+
+
+span{
+    color: red;
+}
+
+img {
+    width:60px;
+    height:60px;
+    border-radius: 50px;
+    margin-left:200px;
+    margin-bottom: -20px;
+}
+
+
+
